@@ -25,7 +25,7 @@ print(Counter.total)
 class BankAccount:
     def __init__(self, owner, balance=0):
         self.owner = owner
-        self._balance = balance   # convention: internal attribute
+        self._balance = balance   
 
     def deposit(self, amount):
         if amount > 0:
@@ -50,7 +50,7 @@ class Dog(Animal):
         return "Woof"
 
 d = Dog()
-print(d.speak())  # Woof
+print(d.speak())   
 
 #Static & Class methods
 class MathUtil:
