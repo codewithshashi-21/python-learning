@@ -16,13 +16,13 @@ class Student:
 # USING THE CLASS (IMPORTANT)
 
 try:
-    s = Student("A")              # too short initially
+    s = Student("A")             
     print(s.get_name())
 
-    s.set_name("Sunny")           # valid update
+    s.set_name("Sunny")           
     print(s.get_name())
 
-    s.set_name("S")               # will raise error
+    s.set_name("S")               
 
 except ValueError as e:
     print("Error:", e)
