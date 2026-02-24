@@ -1,3 +1,0 @@
-nothing
-
-& C:/Users/shash/AppData/Local/Programs/Python/Python313/python.exe "c:/Users/shash/Desktop/Python Learning/day11.py"
